@@ -64,6 +64,45 @@ namespace Hospital.Data.Migrations
                     b.ToTable("patientAdmissions");
                 });
 
+            modelBuilder.Entity("Infrastructure.Entities.Student", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Department")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("students");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("5cf7aa6a-294f-4e7f-8227-0bcf06058495"),
+                            Department = "EEE",
+                            Name = "Amin"
+                        },
+                        new
+                        {
+                            Id = new Guid("3d21ee91-15f8-4532-afa8-4a011d001680"),
+                            Department = "CSE",
+                            Name = "Sadit"
+                        },
+                        new
+                        {
+                            Id = new Guid("1c02f3a8-d05b-4390-b33c-603aaf114f30"),
+                            Department = "ESE",
+                            Name = "Rahim"
+                        });
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")

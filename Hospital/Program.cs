@@ -84,6 +84,7 @@ try
 catch (Exception ex)
 {
 	Log.Fatal(ex, "Application Start-up Failed");
+	Console.WriteLine(ex);
 }
 finally
 {

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Infrastructure.Entities;
+using Infrastructure.Seeds;
 
 namespace Infrastructure.DbContexts
 {
@@ -24,7 +25,17 @@ namespace Infrastructure.DbContexts
 			base.OnConfiguring(optionsBuilder);
 		}
 
+		protected override void OnModelCreating( ModelBuilder modelBuilder )
+		{
+
+			modelBuilder.Entity<Student>()
+				.HasData(new StudentSeed().Students);
+
+			base.OnModelCreating(modelBuilder);
+		}
+
 		public DbSet<PatientAdmission> patientAdmissions { get; set; }
 		public DbSet<InventoryItem> inventoryItems { get; set; }
+		public DbSet<Student> students { get; set; }
 	}
 }
