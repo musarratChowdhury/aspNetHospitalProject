@@ -1,0 +1,28 @@
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+G:\ASPDOTNETCOURSE\AspNetRepo\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll

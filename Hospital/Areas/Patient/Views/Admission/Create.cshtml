@@ -1,0 +1,48 @@
+﻿@model PatientCreateModel
+@{
+	ViewData["Title"] = "Admission";
+}
+
+<div class="container-fluid">
+	<div class="row">
+		<!-- left column -->
+		<div class="col-md-6">
+			<!-- general form elements -->
+			<div class="card card-primary">
+				<div class="card-header">
+					<h3 class="card-title">Quick Example</h3>
+				</div>
+				<!-- /.card-header -->
+				<!-- form start -->
+				<form role="form" asp-antiforgery="true" asp-area="Patient" asp-action="Create" asp-controller="Admission" method="post">
+					<div class="card-body">
+						<div class="form-group">
+							<label asp-for="Name">Patient Name</label>
+							<input type="text" class="form-control" asp-for="Name" placeholder="Enter Patient Name">
+						</div>
+						<div class="form-group">
+							<label  asp-for="Age">Patient Age</label>
+							<input type="text" class="form-control" asp-for="Age" placeholder="Enter Patient Age">
+						</div>
+						<div class="form-group">
+							<label asp-for="AdmissionDate">Patient Admission Date</label>
+							<input type="date" class="form-control" asp-for="AdmissionDate" placeholder="Enter Admission Date">
+						</div>
+
+						<!-- /.card-body -->
+
+						<div class="card-footer">
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</div>
+				</form>
+			</div>
+			<!-- /.card -->
+			<!-- general form elements -->
+
+		</div>
+		<!--/.col (left) -->
+
+	</div>
+	<!-- /.row -->
+
+</div><!-- /.container-fluid -->
