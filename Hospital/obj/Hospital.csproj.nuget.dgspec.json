@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Hospital\\Hospital.csproj": {}
+    "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Hospital\\Hospital.csproj": {}
   },
   "projects": {
-    "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Hospital\\Hospital.csproj": {
+    "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Hospital\\Hospital.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Hospital\\Hospital.csproj",
+        "projectUniqueName": "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Hospital\\Hospital.csproj",
         "projectName": "Hospital",
-        "projectPath": "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Hospital\\Hospital.csproj",
+        "projectPath": "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Hospital\\Hospital.csproj",
         "packagesPath": "C:\\Users\\muhit\\.nuget\\packages\\",
-        "outputPath": "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Hospital\\obj\\",
+        "outputPath": "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Hospital\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muhit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Infrastructure\\Infrastructure.csproj"
+              "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -104,14 +104,14 @@
         }
       }
     },
-    "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Infrastructure\\Infrastructure.csproj": {
+    "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\muhit\\.nuget\\packages\\",
-        "outputPath": "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Infrastructure\\obj\\",
+        "outputPath": "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muhit\\AppData\\Roaming\\NuGet\\NuGet.Config",

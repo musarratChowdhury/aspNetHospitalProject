@@ -8,117 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Hospital
 build_property.RootNamespace = Hospital
-build_property.ProjectDir = G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Hospital\
+build_property.ProjectDir = G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\ASPDOTNETCOURSE\Assignment 1\aspnet-b7-musarrat\Exam1\Hospital
+build_property.MSBuildProjectDirectory = G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital
 build_property._RazorSourceGeneratorDebug = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Identity/Pages/_ViewStart.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Inventory/Views/Home/Index.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Inventory/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Inventory/Views/Inventory/Create.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Inventory/Views/Inventory/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXEludmVudG9yeVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Inventory/Views/Inventory/Index.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Inventory/Views/Inventory/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXEludmVudG9yeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Inventory/Views/Shared/Error.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Inventory/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Inventory/Views/Shared/_LoginPartial.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Inventory/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXFNoYXJlZFxfTG9naW5QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Inventory/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Inventory/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Inventory/Views/_ViewImports.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Inventory/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Inventory/Views/_ViewStart.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Inventory/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Patient/Views/Admission/Create.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Patient/Views/Admission/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xBZG1pc3Npb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Patient/Views/Admission/Index.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Patient/Views/Admission/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xBZG1pc3Npb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Patient/Views/Home/Index.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Patient/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Patient/Views/Shared/Error.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Patient/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Patient/Views/Shared/_LoginPartial.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Patient/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xTaGFyZWRcX0xvZ2luUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Patient/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Patient/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Patient/Views/_ViewImports.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Patient/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Patient/Views/_ViewStart.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Patient/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Views/Home/Index.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Views/Home/Privacy.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Views/Shared/Error.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Views/Shared/_LoginPartial.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Views/_ViewImports.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Views/_ViewStart.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Inventory/Views/Shared/_Layout.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Inventory/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-vou2p642ol
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Areas/Patient/Views/Shared/_Layout.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Areas/Patient/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-wrj3tom5ib
 
-[G:/ASPDOTNETCOURSE/Assignment 1/aspnet-b7-musarrat/Exam1/Hospital/Views/Shared/_Layout.cshtml]
+[G:/ASPDOTNET_PRACTICE/aspNetHospitalProject/Hospital/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-j6i1r8qj4i

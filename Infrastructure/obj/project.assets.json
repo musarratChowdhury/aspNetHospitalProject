@@ -8821,11 +8821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\muhit\\.nuget\\packages\\",
-      "outputPath": "G:\\ASPDOTNETCOURSE\\Assignment 1\\aspnet-b7-musarrat\\Exam1\\Infrastructure\\obj\\",
+      "outputPath": "G:\\ASPDOTNET_PRACTICE\\aspNetHospitalProject\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\muhit\\AppData\\Roaming\\NuGet\\NuGet.Config",
