@@ -17,6 +17,7 @@ namespace Hospital
 			builder.RegisterType<PatientCreateModel>().AsSelf();
 			builder.RegisterType<InventoryCreateModel>().AsSelf();
 			builder.RegisterType<RegisterModel>().AsSelf();
+			builder.RegisterType<LoginModel>().AsSelf();
 
 
 			base.Load(builder);

@@ -6,6 +6,7 @@ using System.Text.Encodings.Web;
 using System.Text;
 using Hospital.Models;
 using Autofac;
+using Microsoft.AspNetCore.Authentication;
 
 namespace Hospital.Controllers
 {
@@ -81,8 +82,66 @@ namespace Hospital.Controllers
 				}
 			}
 			// If we got this far, something failed, redisplay form
-			return View();
+			return View(model);
 		}
+
+		public async Task<IActionResult> Login( string returnUrl = null )
+		{
+
+			var model = _scope.Resolve<LoginModel>();
+
+		
+
+			model.ReturnUrl ??= Url.Content("~/");
+
+			// Clear the existing external cookie to ensure a clean login process
+			await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
+
+			model.ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+
+			return View(model);
+
+			
+		}
+
+		[HttpPost, ValidateAntiForgeryToken]
+
+		public async Task<IActionResult> Login( LoginModel? model )
+		{
+			model.ReturnUrl ??= Url.Content("~/");
+
+			model.ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+
+			if (ModelState.IsValid)
+			{
+				// This doesn't count login failures towards account lockout
+				// To enable password failures to trigger account lockout, set lockoutOnFailure: true
+				var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+				if (result.Succeeded)
+				{
+					_logger.LogInformation("User logged in.");
+					return LocalRedirect(model.ReturnUrl);
+				}
+				if (result.RequiresTwoFactor)
+				{
+					return RedirectToAction("LoginWith2fa", new { ReturnUrl = model.ReturnUrl, RememberMe = model.RememberMe });
+				}
+				if (result.IsLockedOut)
+				{
+					_logger.LogWarning("User account locked out.");
+					return RedirectToAction("Lockout");
+				}
+				else
+				{
+					ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+					return View(model);
+				}
+			}
+
+			// If we got this far, something failed, redisplay form
+			return View(model);
+		}
+
 		public IActionResult Index()
 		{
 			return View();
