@@ -67,7 +67,7 @@ namespace Hospital.Controllers
 
 					if (_userManager.Options.SignIn.RequireConfirmedAccount)
 					{
-						return RedirectToPage("RegisterConfirmation", new { email = model.Email, returnUrl = model.ReturnUrl });
+						return RedirectToAction("RegisterConfirmation", new { email = model.Email, returnUrl = model.ReturnUrl });
 					}
 					else
 					{
