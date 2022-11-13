@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using Hospital.Areas.Inventory.Models;
 using Hospital.Areas.Patient.Models;
+using Hospital.Models;
 
 namespace Hospital
 {
@@ -15,6 +16,7 @@ namespace Hospital
 
 			builder.RegisterType<PatientCreateModel>().AsSelf();
 			builder.RegisterType<InventoryCreateModel>().AsSelf();
+			builder.RegisterType<RegisterModel>().AsSelf();
 
 
 			base.Load(builder);
