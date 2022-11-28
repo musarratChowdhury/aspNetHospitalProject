@@ -8,27 +8,29 @@ using Hospital.Models;
 using Autofac;
 using Microsoft.AspNetCore.Authentication;
 
+using Infrastructure.Entities;
+
 namespace Hospital.Controllers
 {
 	public class AccountController : Controller
 	{
-		private readonly SignInManager<IdentityUser> _signInManager;
-		private readonly UserManager<IdentityUser> _userManager;
+		private readonly SignInManager<ApplicationUser> _signInManager;
+		private readonly UserManager<ApplicationUser> _userManager;
 		private readonly ILogger<RegisterModel> _logger;
-		private readonly IEmailSender _emailSender;
+		
 		private readonly ILifetimeScope _scope;
 
 		public AccountController(
-				UserManager<IdentityUser> userManager,
-				SignInManager<IdentityUser> signInManager,
+				UserManager<ApplicationUser> userManager,
+				SignInManager<ApplicationUser> signInManager,
 				ILogger<RegisterModel> logger,
-				ILifetimeScope scope,
-				IEmailSender emailSender )
+				ILifetimeScope scope
+			 )
 		{
 			_userManager = userManager;
 			_signInManager = signInManager;
 			_logger = logger;
-			_emailSender = emailSender;
+
 			_scope = scope;
 		}
 
@@ -49,7 +51,7 @@ namespace Hospital.Controllers
 			model.ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 			if (ModelState.IsValid)
 			{
-				var user = new IdentityUser { UserName = model.Email, Email = model.Email };
+				var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
 				var result = await _userManager.CreateAsync(user, model.Password);
 				if (result.Succeeded)
 				{
@@ -63,8 +65,8 @@ namespace Hospital.Controllers
 							values: new { area = "Identity", userId = user.Id, code = code, returnUrl = model.ReturnUrl },
 							protocol: Request.Scheme);
 
-					await _emailSender.SendEmailAsync(model.Email, "Confirm your email",
-							$"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+					//await _emailSender.SendEmailAsync(model.Email, "Confirm your email",
+					//		$"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
 					if (_userManager.Options.SignIn.RequireConfirmedAccount)
 					{

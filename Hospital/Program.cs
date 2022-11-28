@@ -1,18 +1,20 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using Hospital.Data;
+
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Hospital.Data;
+
 using Serilog;
 using Serilog.Events;
 using System.Reflection;
 using Infrastructure;
 using Hospital;
 using Infrastructure.DbContexts;
+using Infrastructure.Entities;
+using Infrastructure.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
-try
-{
+
 	var builder = WebApplication.CreateBuilder(args);
 
 	// Add services to the container.
@@ -36,9 +38,78 @@ try
 							 .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
 							 .Enrich.FromLogContext()
 							 .ReadFrom.Configuration(builder.Configuration));
+try
+{
 
-	builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-			.AddEntityFrameworkStores<ApplicationDbContext>();
+	builder.Services
+	.AddIdentity<ApplicationUser, ApplicationRole>()
+	.AddEntityFrameworkStores<ApplicationDbContext>()
+	.AddUserManager<ApplicationUserManager>()
+	.AddRoleManager<ApplicationRoleManager>()
+	.AddSignInManager<ApplicationSignInManager>()
+	.AddDefaultTokenProviders();
+
+
+	builder.Services.AddAuthentication()
+	.AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
+	{
+		options.LoginPath = new PathString("/Account/Login");
+		options.AccessDeniedPath = new PathString("/Account/Login");
+		options.LogoutPath = new PathString("/Account/Logout");
+		options.Cookie.Name = "FirstDemoPortal.Identity";
+		options.SlidingExpiration = true;
+		options.ExpireTimeSpan = TimeSpan.FromHours(1);
+	});
+
+	builder.Services.Configure<IdentityOptions>(options =>
+	{
+		// Password settings.
+		options.Password.RequireDigit = true;
+		options.Password.RequireLowercase = false;
+		options.Password.RequireNonAlphanumeric = false;
+		options.Password.RequireUppercase = false;
+		options.Password.RequiredLength = 6;
+		options.Password.RequiredUniqueChars = 0;
+
+		// Lockout settings.
+		options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+		options.Lockout.MaxFailedAccessAttempts = 5;
+		options.Lockout.AllowedForNewUsers = true;
+
+		// User settings.
+		options.User.AllowedUserNameCharacters =
+		"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+		options.User.RequireUniqueEmail = true;
+	});
+
+	builder.Services.AddAuthorization(options =>
+	{
+		options.AddPolicy("CourseManagementPolicy", policy =>
+		{
+			policy.RequireAuthenticatedUser();
+			policy.RequireRole("Admin");
+			policy.RequireRole("Teacher");
+		});
+
+		options.AddPolicy("CourseViewPolicy", policy =>
+		{
+			policy.RequireAuthenticatedUser();
+			policy.RequireClaim("ViewCourse", "true");
+		});
+		options.AddPolicy("CourseCreatePolicy", policy =>
+		{
+			policy.RequireAuthenticatedUser();
+			policy.RequireClaim("CreateCourse", "true");
+		});
+
+		//options.AddPolicy("CourseViewRequirementPolicy", policy =>
+		//{
+		//	policy.RequireAuthenticatedUser();
+		//	policy.Requirements.Add(new CourseViewRequirement());
+		//});
+
+	});
+
 	builder.Services.AddControllersWithViews();
 
 
@@ -76,7 +147,7 @@ try
 			name: "default",
 			pattern: "{controller=Home}/{action=Index}/{id?}");
 
-	app.MapRazorPages();
+
 
 	app.Run();
 

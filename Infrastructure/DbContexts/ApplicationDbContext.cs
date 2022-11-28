@@ -6,7 +6,8 @@ using Infrastructure.Seeds;
 
 namespace Infrastructure.DbContexts
 {
-	public class ApplicationDbContext : IdentityDbContext, IApplicationDbContext
+	public class ApplicationDbContext :   IdentityDbContext<ApplicationUser, ApplicationRole, Guid,
+				ApplicationUserClaim, ApplicationUserRole, ApplicationUserLogin, ApplicationRoleClaim, ApplicationUserToken>, IApplicationDbContext
 	{
 		private readonly string _connectionString;
 		private readonly string _migrationAssemblyName;
