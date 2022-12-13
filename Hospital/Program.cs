@@ -10,6 +10,7 @@ using System.Reflection;
 using Infrastructure;
 using Hospital;
 using Infrastructure.DbContexts;
+using Infrastructure.Entities;
 
 try
 {
@@ -21,6 +22,10 @@ try
 	builder.Services.AddDbContext<ApplicationDbContext>(options =>
 			options.UseSqlServer(connectionString, m => m.MigrationsAssembly(migrationAssemblyName)));
 	builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+	builder.Services
+	.AddIdentity<ApplicationUser, ApplicationRole>()
+	.AddEntityFrameworkStores<ApplicationDbContext>()
+	.AddDefaultTokenProviders();
 
 	//AUTOFAC CONFIGURATION
 	builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
@@ -36,9 +41,7 @@ try
 							 .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
 							 .Enrich.FromLogContext()
 							 .ReadFrom.Configuration(builder.Configuration));
-
-	builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-			.AddEntityFrameworkStores<ApplicationDbContext>();
+	
 	builder.Services.AddControllersWithViews();
 
 
@@ -76,7 +79,7 @@ try
 			name: "default",
 			pattern: "{controller=Home}/{action=Index}/{id?}");
 
-	app.MapRazorPages();
+
 
 	app.Run();
 

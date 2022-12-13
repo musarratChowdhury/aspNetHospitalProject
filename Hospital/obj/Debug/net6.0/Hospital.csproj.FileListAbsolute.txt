@@ -876,3 +876,8 @@ G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\obj\Debug\net6.0\refint\Hos
 G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\obj\Debug\net6.0\Hospital.pdb
 G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\obj\Debug\net6.0\Hospital.genruntimeconfig.cache
 G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\obj\Debug\net6.0\ref\Hospital.dll
+G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\obj\Debug\net6.0\staticwebassets\msbuild.Hospital.Microsoft.AspNetCore.StaticWebAssets.props
+G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\obj\Debug\net6.0\staticwebassets\msbuild.build.Hospital.props
+G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Hospital.props
+G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Hospital.props
+G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\obj\Debug\net6.0\staticwebassets.pack.json

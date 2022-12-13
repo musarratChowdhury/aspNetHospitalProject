@@ -5,7 +5,7 @@ using Infrastructure.Entities;
 
 namespace Infrastructure.DbContexts
 {
-	public class ApplicationDbContext : IdentityDbContext, IApplicationDbContext
+	public class ApplicationDbContext : IdentityDbContext<ApplicationUser,ApplicationRole,Guid>, IApplicationDbContext
 	{
 		private readonly string _connectionString;
 		private readonly string _migrationAssemblyName;
