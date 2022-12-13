@@ -301,3 +301,23 @@ Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostExce
    at Microsoft.Extensions.Hosting.HostBuilder.Build()
    at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
    at Program.<Main>$(String[] args) in G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\Program.cs:line 48
+2022-12-13 21:10:32.966 +06:00 [FTL] Application Start-up Failed
+Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\Program.cs:line 48
+2022-12-13 21:15:12.199 +06:00 [FTL] Application Start-up Failed
+Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in G:\ASPDOTNET_PRACTICE\aspNetHospitalProject\Hospital\Program.cs:line 48
+2022-12-13 23:52:52.007 +06:00 [WRN] Invalid password for user.
+2022-12-13 23:52:52.144 +06:00 [WRN] User failed to provide the correct password.
+2022-12-13 23:53:08.294 +06:00 [WRN] Invalid password for user.
+2022-12-13 23:53:08.294 +06:00 [WRN] User failed to provide the correct password.
+2022-12-13 23:53:09.837 +06:00 [WRN] Invalid password for user.
+2022-12-13 23:53:09.837 +06:00 [WRN] User failed to provide the correct password.

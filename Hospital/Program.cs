@@ -27,6 +27,17 @@ try
 	.AddEntityFrameworkStores<ApplicationDbContext>()
 	.AddDefaultTokenProviders();
 
+	//Password Configuration
+	builder.Services.Configure<IdentityOptions>(options =>
+	{
+		options.Password.RequiredUniqueChars = 0;
+		options.Password.RequireDigit = false;
+		options.Password.RequireUppercase = false;
+		options.Password.RequiredLength = 4;
+		options.Password.RequireNonAlphanumeric = false;
+
+	});
+
 	//AUTOFAC CONFIGURATION
 	builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 	builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
