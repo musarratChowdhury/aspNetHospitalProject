@@ -1,0 +1,26 @@
+﻿@model CreateRoleVM
+@{
+    ViewData["Title"] = "Administration";
+}
+
+<div class="row">
+	<div class="col-md-4">
+		<form id="roleForm" asp-area="" asp-controller="Administration" asp-action="CreateRole"
+			  asp-antiforgery="true" enctype="multipart/form-data" method="post">
+			<h2>Create a new Role.</h2>
+			<hr />
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+			<div class="form-floating mt-2">
+				<input asp-for="RoleName" class="form-control" aria-required="true" />
+				<label asp-for="RoleName"></label>
+				<span asp-validation-for="RoleName" class="text-danger"></span>
+			</div>
+			
+			<div class="mt-3">
+				<button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Create Role</button>
+			</div>
+		</form>
+	</div>
+</div>
+

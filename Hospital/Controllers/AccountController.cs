@@ -56,9 +56,8 @@ namespace Hospital.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> Login(LoginVM model)
+		public async Task<IActionResult> Login(LoginVM model,string returnUrl)
 		{
-			model.ReturnUrl ??= Url.Content("~/Home/index");
 
 			if (ModelState.IsValid)
 			{
@@ -67,13 +66,27 @@ namespace Hospital.Controllers
 
 				if (result.Succeeded)
 				{
-					return RedirectToAction("index", "Home");
+					if(!string.IsNullOrEmpty(returnUrl))
+					{
+						return LocalRedirect(returnUrl);
+					}else
+					{
+						return RedirectToAction("index", "Home");
+					}
+					
 				}
 
 				ModelState.AddModelError(string.Empty, "Invalid Login Attempt");
 
 			}
 			return View(model);
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> Logout()
+		{
+			await _signInManager.SignOutAsync();
+			return RedirectToAction("index", "Home");
 		}
 	}
 }

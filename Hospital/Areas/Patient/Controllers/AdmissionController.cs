@@ -1,10 +1,12 @@
 ﻿using Autofac;
 using Hospital.Areas.Patient.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hospital.Areas.Patient.Controllers
 {
 	[Area("Patient")]
+	[Authorize(Roles ="admin")]
 	public class AdmissionController : Controller
 	{
 		
@@ -17,11 +19,12 @@ namespace Hospital.Areas.Patient.Controllers
 			_scope = scope;
 			_logger = logger;
 		}
+		[AllowAnonymous]
 		public IActionResult Index()
 		{
 			return View();
 		}
-
+		
 		public IActionResult Create()
 		{
 			PatientCreateModel model = _scope.Resolve<PatientCreateModel>();
